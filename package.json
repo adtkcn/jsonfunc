@@ -1,0 +1,25 @@
+{
+  "name": "@adtkcn/jsonfunc",
+  "version": "1.0.3",
+  "description": "支持解析包含function的json",
+  "main": "index.common.js",
+  "email": "11675084@qq.com",
+  "exports": {
+    ".": {
+      "require": "./index.common.js",
+      "import": "./index.mjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "push": "npm publish"
+  },
+  "keywords": [
+    "json",
+    "function"
+  ],
+  "author": "heng,yue",
+  "license": "ISC"
+}
